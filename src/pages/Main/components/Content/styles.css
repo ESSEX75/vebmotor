@@ -1,0 +1,43 @@
+.content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #0078EE;
+    border-radius: 46px;
+
+}
+
+.content::-webkit-scrollbar-track {
+    background-color: rgba(173, 182, 191, 40%);
+    margin-bottom: 30px;
+}
+
+.content_title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 123%;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 680px) {
+
+    .content::-webkit-scrollbar-track {
+        margin-bottom: 10px;
+    }
+
+    .content__title {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+}
+

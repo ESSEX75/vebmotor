@@ -1,0 +1,9 @@
+.accordion__hug {
+    display: none;
+}
+
+@media (max-width: 680px) {
+    .accordion__hug {
+        display: block;
+    }
+}

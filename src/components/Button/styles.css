@@ -1,0 +1,30 @@
+.button-root {
+    background-color: #0078EE;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-root:hover {
+    background-color: #2986f1;
+    color: #FFFFFF;
+}
+
+.button-root:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 680px) {
+
+    .button-root {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+        height: 42px;
+    }
+
+}

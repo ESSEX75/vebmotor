@@ -1,0 +1,27 @@
+.input-root {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #2B3343;
+    padding: 14px;
+    width: 295px;
+    height: 50px;
+}
+
+.input-root::placeholder {
+    color: #ADB6BF;
+    font-size: 14px;
+}
+
+.input-root:focus-within::placeholder {
+    transform: translateY(-15px) translateX(-30px) scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 680px) {
+
+    .input-root {
+        width: calc(100% - 2px);
+    }
+
+}

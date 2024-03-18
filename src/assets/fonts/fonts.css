@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ttInterfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('ttInterfacesBold'), url('./TTInterfaces-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ttInterfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('ttInterfacesMedium'), url('./TTInterfaces-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ttInterfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('ttInterfacesRegular'), url('./TTInterfaces-Regular.ttf') format('truetype');
+}
